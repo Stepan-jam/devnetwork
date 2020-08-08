@@ -16,7 +16,7 @@ Alert.propTypes = {
 };
 
 const mapStateToProps = (state) => ({
-  alerts: state.alert, // доступ к редюсеру alert
+  alerts: state.alert,
 });
 
 export default connect(mapStateToProps)(Alert);
